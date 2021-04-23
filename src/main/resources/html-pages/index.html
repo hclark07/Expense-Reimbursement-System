@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+
+      <div class="body">
+            <div id = "mainContainer" class="center bgblack">
+                <div class="mainDiv">
+                  <div id ="divBody">
+                     <h2 id="divBodyHeader" class="white">User Login</h2>
+
+                    <div id="tryAgain"></div>
+
+                    <form method="post" action="/login/redirect/" class="white">
+
+                        <p class=>Email address</p>
+                        <div class="form-floating mb-3">
+                            <input type="email" id="email" class="form-control" id="floatingEmail" name="email" placeholder="name@example.com">
+                            <label for="floatingEmail">Email</label>
+                        </div>
+
+                        <p class=>Password</p>
+                        <div class="form-floating">
+                            <input id="password" type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+
+                        <div class="login">
+                            <input name="remember" type="checkbox" value="true"> Remember login
+                        </div>
+
+                        <div class="d-grid gap-2">
+                                <button id="loginButton" class="btn btn-success" type="submit">Login</button>
+                        </div>
+
+                    </form>
+                    <div class="d-grid gap-2">
+                      <button id="createNewUser" class="btn btn-secondary" type="button">Create New Account</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+      </div>
+      
+     
+
+      
+
+
+    <script src="loginPage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
