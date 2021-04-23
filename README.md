@@ -30,10 +30,10 @@ To-do list:
 
 ## Getting Started
    
-*First we need to git clone project
+* First we need to git clone project
 > git clone https://github.com/hclark07/Expense-Reimbursement-System.git
 
-*Then we need to install IntelliJ
+* Then we need to install IntelliJ
 > https://www.jetbrains.com/idea/download/#section=windows
 
 
