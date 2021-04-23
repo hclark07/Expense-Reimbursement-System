@@ -78,11 +78,3 @@ To-do list:
 > ![employeeboardupdate](https://user-images.githubusercontent.com/69532931/115919902-4ea7c200-a42e-11eb-90d7-c018e54e1204.png)
 
 
-## Contributors
-
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
-
-## License
-
-This project uses the following license: [<license_name>](<link>).
-
